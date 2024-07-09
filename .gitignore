@@ -1,0 +1,42 @@
+# Ignore Django generated files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore environment-specific settings
+*.env
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Django migration files
+**/migrations/*.py
+**/migrations/*.pyc
+__pycache__/  
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore logs and other runtime generated files
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static and media files (if managed by version control)
+/staticfiles/
+/media/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Django secret key
+*.secret_key
+
+# Ignore coverage reports
+.coverage
